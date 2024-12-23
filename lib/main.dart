@@ -1,5 +1,6 @@
+import 'package:bmi_body_mass_index_calculator/home_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:gdg_benha/home.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
 
 void main() {
   runApp(
@@ -12,10 +13,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'GDG Benha',
+    return const GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      title: 'BMI Calculator',
+      home: HomeScreen(),
     );
   }
 }

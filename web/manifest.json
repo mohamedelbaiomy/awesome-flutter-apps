@@ -1,6 +1,6 @@
 {
-    "name": "gdg_benha",
-    "short_name": "gdg_benha",
+    "name": "bmi_body_mass_index_calculator",
+    "short_name": "bmi_body_mass_index_calculator",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
