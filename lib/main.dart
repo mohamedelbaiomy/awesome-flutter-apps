@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gdg_benha/home.dart';
+import 'package:quiz_app/quiz_screen.dart';
 
 void main() {
   runApp(
@@ -13,9 +13,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'GDG Benha',
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      title: 'Quiz App',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
+      ),
+      home: const QuizScreen(),
     );
   }
 }
