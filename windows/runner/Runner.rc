@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.baiomy" "\0"
-            VALUE "FileDescription", "gdg_benha" "\0"
+            VALUE "CompanyName", "com.mohamed" "\0"
+            VALUE "FileDescription", "basketball_counter" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "gdg_benha" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2024 com.baiomy. All rights reserved." "\0"
-            VALUE "OriginalFilename", "gdg_benha.exe" "\0"
-            VALUE "ProductName", "gdg_benha" "\0"
+            VALUE "InternalName", "basketball_counter" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2024 com.mohamed. All rights reserved." "\0"
+            VALUE "OriginalFilename", "basketball_counter.exe" "\0"
+            VALUE "ProductName", "basketball_counter" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

@@ -1,6 +1,6 @@
 {
-    "name": "gdg_benha",
-    "short_name": "gdg_benha",
+    "name": "basketball_counter",
+    "short_name": "basketball_counter",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

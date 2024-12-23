@@ -1,4 +1,4 @@
-# gdg_benha
+# basketball_counter
 
 A new Flutter project.
 
