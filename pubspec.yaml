@@ -1,4 +1,4 @@
-name: gdg_benha
+name: business_card
 description: "A new Flutter project."
 publish_to: 'none'
 version: 1.0.0+1
@@ -23,7 +23,8 @@ flutter:
   uses-material-design: true
 
   assets:
-      - assets/
+      - images/
+
   # fonts:
   #   - family: Schyler
   #     fonts:
@@ -35,4 +36,3 @@ flutter:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
-
