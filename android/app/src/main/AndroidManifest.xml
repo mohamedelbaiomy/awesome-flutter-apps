@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="gdg_benha"
+        android:label="calculator"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

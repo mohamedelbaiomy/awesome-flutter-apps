@@ -1,6 +1,6 @@
 {
-    "name": "gdg_benha",
-    "short_name": "gdg_benha",
+    "name": "calculator",
+    "short_name": "calculator",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
