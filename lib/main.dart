@@ -1,9 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:gdg_benha/home.dart';
+import 'package:provider/provider.dart';
+import 'logic/sqlhelper.dart';
+import 'views/home_screen.dart';
+import 'logic/notes_todo_provider.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  SQLHelper().getDatabase();
   runApp(
-    const MyApp(),
+    ChangeNotifierProvider(
+      create: (_) => DatabaseProvider(),
+      child: const MyApp(),
+    ),
   );
 }
 
@@ -13,9 +21,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'GDG Benha',
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      title: 'Notes & Todo',
+      home: const MyHomePage(),
     );
   }
 }
+

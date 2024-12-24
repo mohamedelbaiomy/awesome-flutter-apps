@@ -1,6 +1,6 @@
 {
-    "name": "gdg_benha",
-    "short_name": "gdg_benha",
+    "name": "notes_todo_app_provider",
+    "short_name": "notes_todo_app_provider",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
