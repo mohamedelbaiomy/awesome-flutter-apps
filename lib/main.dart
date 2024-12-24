@@ -1,21 +1,32 @@
 import 'package:flutter/material.dart';
-import 'package:gdg_benha/home.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
+import 'package:provider/provider.dart';
+import 'package:todo_api_provider/provider/request_provider.dart';
+import 'package:todo_api_provider/views/home_screen.dart';
 
 void main() {
   runApp(
-    const MyApp(),
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => RequestProvider()),
+      ],
+      child: const MyApp(),
+    ),
   );
 }
+
+/// Api Link :  https://api.nstack.in/
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'GDG Benha',
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      title: 'Todo App',
+      theme: ThemeData.dark(),
+      home: const HomeScreen(),
     );
   }
 }
