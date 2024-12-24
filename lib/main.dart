@@ -1,21 +1,25 @@
 import 'package:flutter/material.dart';
-import 'package:gdg_benha/home.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
+import 'package:todo_app/views/home_screen.dart';
 
 void main() {
   runApp(
-    const MyApp(),
+    MyApp(),
   );
 }
+
+/// Api Link :  https://api.nstack.in/
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'GDG Benha',
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      title: 'Todo App',
+      theme: ThemeData.dark(),
+      home: const HomeScreen(),
     );
   }
 }
