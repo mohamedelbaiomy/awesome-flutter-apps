@@ -54,4 +54,16 @@ This repository contains all the projects we have done in GDG Benha Season 2024 
             </a>
         </td>
     </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/mohamedelbaiomy/GDG-Benha/tree/weather_api">
+                <img src="https://github.com/mohamedelbaiomy/GDG-Benha/blob/weather_api/screenshots/banner.png?raw=true" alt="Image 1" width="1000" />
+            </a>
+        </td>
+        <td>
+            <a href="">
+                <img src="" alt="Image 1" width="1000" />
+            </a>
+        </td>
+    </tr>
 </table>
