@@ -5,10 +5,10 @@
 // 'flutter create' template.
 
 // The application's name. By default this is also the title of the Flutter window.
-PRODUCT_NAME = gdg_benha
+PRODUCT_NAME = notes_app
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.baiomy.gdgBenha
+PRODUCT_BUNDLE_IDENTIFIER = com.baiomy.notesApp
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2024 com.baiomy. All rights reserved.

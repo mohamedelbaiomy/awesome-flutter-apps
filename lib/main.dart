@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:gdg_benha/home.dart';
+import 'package:notes_app/sql_helper.dart';
+
+
+import 'notes_screen.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  SqlHelper().getDatabase();
   runApp(
     const MyApp(),
   );
@@ -12,10 +17,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'GDG Benha',
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      home: NotesScreen(),
     );
   }
 }
