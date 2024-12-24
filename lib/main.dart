@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:gdg_benha/home.dart';
+import 'package:get/get.dart';
+import 'package:weather_app/views/home_screen.dart';
 
 void main() {
   runApp(
@@ -12,10 +13,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'GDG Benha',
+    return const GetMaterialApp(
+      title: 'Weather app',
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      home: HomeScreen(),
     );
   }
 }
