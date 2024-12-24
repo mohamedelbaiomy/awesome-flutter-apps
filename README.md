@@ -36,10 +36,22 @@ This repository contains all the projects we have done in GDG Benha Season 2024 
                 <img src="https://raw.githubusercontent.com/mohamedelbaiomy/GDG-Benha/refs/heads/quiz_app/ScreenShots/Panner.png" alt="Image 1" width="1000" />
             </a>
         </td>
-<!--         <td>
-            <a href="https://github.com/yunweneric/flutter_openUI/tree/9-implement-the-ui-for-doctor-onboarding">
-                <img src="./showcase/doctor_appointment.png" alt="Image 1" width="1000" />
+        <td>
+            <a href="travel">
+                <img src="" alt="Image 1" width="1000" />
             </a>
-        </td> -->
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="notes">
+                <img src="" alt="Image 1" width="1000" />
+            </a>
+        </td>
+        <td>
+            <a href="notes_todo_provider">
+                <img src="" alt="Image 1" width="1000" />
+            </a>
+        </td>
     </tr>
 </table>
