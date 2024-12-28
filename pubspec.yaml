@@ -1,4 +1,4 @@
-name: gdg_benha
+name: contacts_app_provider
 description: "A new Flutter project."
 publish_to: 'none'
 version: 1.0.0+1
@@ -11,6 +11,8 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
+  shared_preferences: ^2.3.4
+  provider: ^6.1.2
 
 dev_dependencies:
   flutter_test:
@@ -22,8 +24,9 @@ flutter:
 
   uses-material-design: true
 
-  assets:
-      - assets/
+  # assets:
+  #   - images/a_dot_burr.jpeg
+
   # fonts:
   #   - family: Schyler
   #     fonts:
@@ -35,4 +38,3 @@ flutter:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
-

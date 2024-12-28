@@ -1,5 +1,8 @@
+import 'package:contacts_app_provider/home_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:gdg_benha/home.dart';
+import 'package:provider/provider.dart';
+
+import 'contact_provider.dart';
 
 void main() {
   runApp(
@@ -12,10 +15,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'GDG Benha',
-      debugShowCheckedModeBanner: false,
-      home: Home(),
+    return ChangeNotifierProvider(
+      create: (context) => ContactProvider(),
+      child: MaterialApp(
+        title: 'Contacts app',
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData.dark(),
+        home: HomeScreen(),
+      ),
     );
   }
 }
