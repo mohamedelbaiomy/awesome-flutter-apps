@@ -1,5 +1,5 @@
+import 'package:contacts_app/home_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:gdg_benha/home.dart';
 
 void main() {
   runApp(
@@ -13,9 +13,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'GDG Benha',
+      title: 'Contacts app',
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      theme: ThemeData.dark(),
+      home: HomeScreen(),
     );
   }
 }
