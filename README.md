@@ -42,6 +42,18 @@ This repository contains several projects i have done ✨
             </a>
         </td>
     </tr>
+     <tr>
+        <td>
+            <a href="https://github.com/mohamedelbaiomy/Flutter-With-Baiomy/tree/contacts_app">
+                <img src="https://raw.githubusercontent.com/mohamedelbaiomy/Flutter-With-Baiomy/refs/heads/contacts_app/screenshots/banner.png" alt="Image 1" width="1000" />
+            </a>
+        </td>
+        <td>
+            <a href="https://github.com/mohamedelbaiomy/Flutter-With-Baiomy/tree/contacts_app_provider">
+                <img src="https://raw.githubusercontent.com/mohamedelbaiomy/Flutter-With-Baiomy/refs/heads/contacts_app_provider/screenshots/banner.png" alt="Image 1" width="1000" />
+            </a>
+        </td>
+    </tr>
     <tr>
         <td>
             <a href="https://github.com/mohamedelbaiomy/GDG-Benha/tree/notes_app">
