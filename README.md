@@ -90,4 +90,11 @@ This repository contains several projects i have done ✨
             </a>
         </td>
     </tr>
+    <tr>
+        <td colspan="2">
+            <a href="https://github.com/mohamedelbaiomy/awesome-flutter-apps/tree/firebase_example">
+                <img src="./showcase/firebase_example.png" alt="Image 1" width="1000" />
+            </a>
+        </td>
+    </tr>
 </table>
