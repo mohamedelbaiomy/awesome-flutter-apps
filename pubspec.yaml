@@ -1,16 +1,37 @@
-name: gdg_benha
+name: firebase_example
 description: "A new Flutter project."
 publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.6.0
+  sdk: ^3.6.1
 
 dependencies:
   flutter:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
+
+  another_flushbar: ^1.12.30
+
+  firebase_core: ^3.11.0
+  firebase_auth: ^5.4.2
+  cloud_firestore: ^5.6.3
+
+  date_picker_timeline: ^1.2.6
+  flutter_countdown_timer: ^4.1.0
+
+  get: ^4.7.2
+  provider: ^6.1.2
+  shared_preferences: ^2.5.2
+  google_sign_in: ^6.2.2
+  pull_to_refresh_flutter3: ^2.0.2
+
+  uuid: ^4.5.1
+  intl: ^0.19.0
+  flutter_spinkit: ^5.2.1
+  flutter_pw_validator: ^1.6.0
+  font_awesome_flutter: ^10.8.0
 
 dev_dependencies:
   flutter_test:
@@ -24,6 +45,7 @@ flutter:
 
   assets:
       - assets/
+
   # fonts:
   #   - family: Schyler
   #     fonts:
@@ -35,4 +57,3 @@ flutter:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
-

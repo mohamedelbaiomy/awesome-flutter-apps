@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "126967801988",
+    "project_id": "fir-example-f5c12",
+    "storage_bucket": "fir-example-f5c12.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126967801988:android:0c385899eecf70c0c3fad1",
+        "android_client_info": {
+          "package_name": "com.baiomy.firebase_example"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqs_vRtSYQ0LcyOSuDIxWXCK1vzGku6hQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
