@@ -172,6 +172,10 @@ class _LoginScreenState extends State<LoginScreen> {
           });
           showFlushBarError(e.toString());
         }
+      } else {
+        setState(() {
+          loading = false;
+        });
       }
     });
   }
