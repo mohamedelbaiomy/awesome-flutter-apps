@@ -1,16 +1,19 @@
-name: gdg_benha
+name: localization_example
 description: "A new Flutter project."
 publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.6.0
+  sdk: ^3.6.1
 
 dependencies:
   flutter:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
+  easy_localization: ^3.0.7+1
+  restart_app: ^1.3.2
+  get: ^4.7.2
 
 dev_dependencies:
   flutter_test:
@@ -23,7 +26,8 @@ flutter:
   uses-material-design: true
 
   assets:
-      - assets/
+      - assets/translations/
+
   # fonts:
   #   - family: Schyler
   #     fonts:
@@ -35,4 +39,3 @@ flutter:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
-
