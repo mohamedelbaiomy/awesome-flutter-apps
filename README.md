@@ -107,6 +107,11 @@ This repository showcases the projects I've worked on and provides a comprehensi
                 <img src="./showcase/change_theme.png" alt="Image 1" width="1000" />
             </a>
         </td>
+        <td>
+            <a href="https://github.com/mohamedelbaiomy/awesome-flutter-apps/tree/localization">
+                <img src="./showcase/localization.png" alt="Image 1" width="1000" />
+            </a>
+        </td>
     </tr>
 </table>
 
