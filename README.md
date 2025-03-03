@@ -101,6 +101,13 @@ This repository showcases the projects I've worked on and provides a comprehensi
             </a>
         </td>
     </tr>
+    <tr>
+        <td>
+            <a href="https://github.com/mohamedelbaiomy/awesome-flutter-apps/tree/change_theme">
+                <img src="./showcase/change_theme.png" alt="Image 1" width="1000" />
+            </a>
+        </td>
+    </tr>
 </table>
 
 # Flutter Learning Roadmap 🚀
