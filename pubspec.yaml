@@ -1,16 +1,18 @@
-name: gdg_benha
+name: change_theme_example
 description: "A new Flutter project."
 publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.6.0
+  sdk: ^3.6.1
 
 dependencies:
   flutter:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  shared_preferences: ^2.5.2
 
 dev_dependencies:
   flutter_test:
@@ -22,8 +24,9 @@ flutter:
 
   uses-material-design: true
 
-  assets:
-      - assets/
+  # assets:
+  #   - images/a_dot_burr.jpeg
+
   # fonts:
   #   - family: Schyler
   #     fonts:
@@ -35,4 +38,3 @@ flutter:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
-
